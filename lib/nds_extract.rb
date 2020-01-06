@@ -117,7 +117,7 @@ def movies_with_directors_set(source)
   # binding.pry
   while i < source.length do 
     binding.pry
-    # movies << movies_with_director_key(source[i][:name]) = source[i][:movies])
+    movies << movies_with_director_key(source[i][:name], source[i][:movies])
     # binding.pry
   i += 1  
   end 
